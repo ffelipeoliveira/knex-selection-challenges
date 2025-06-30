@@ -162,16 +162,16 @@ Distribuído sob a licença GPL2. Acesse `LICENSE.txt` para mais informações.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/ffelipeoliveira/not_real.svg?style=for-the-badge
-[contributors-url]: https://github.com/ffelipeoliveira/not_real/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/ffelipeoliveira/not_real.svg?style=for-the-badge
-[forks-url]: https://github.com/ffelipeoliveira/not_real/network/members
-[stars-shield]: https://img.shields.io/github/stars/ffelipeoliveira/not_real.svg?style=for-the-badge
-[stars-url]: https://github.com/ffelipeoliveira/not_real/stargazers
-[issues-shield]: https://img.shields.io/github/issues/ffelipeoliveira/not_real.svg?style=for-the-badge
-[issues-url]: https://github.com/ffelipeoliveira/not_real/issues
-[license-shield]: https://img.shields.io/github/license/ffelipeoliveira/not_real.svg?style=for-the-badge
-[license-url]: https://github.com/ffelipeoliveira/not_real/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/ffelipeoliveira/knex-selection-challenges.svg?style=for-the-badge
+[contributors-url]: https://github.com/ffelipeoliveira/knex-selection-challenges/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ffelipeoliveira/knex-selection-challenges.svg?style=for-the-badge
+[forks-url]: https://github.com/ffelipeoliveira/knex-selection-challenges/network/members
+[stars-shield]: https://img.shields.io/github/stars/ffelipeoliveira/knex-selection-challenges.svg?style=for-the-badge
+[stars-url]: https://github.com/ffelipeoliveira/knex-selection-challenges/stargazers
+[issues-shield]: https://img.shields.io/github/issues/ffelipeoliveiraknex-selection-challenges.svg?style=for-the-badge
+[issues-url]: https://github.com/ffelipeoliveira/knex-selection-challenges/issues
+[license-shield]: https://img.shields.io/github/license/ffelipeoliveira/knex-selection-challenges.svg?style=for-the-badge
+[license-url]: https://github.com/ffelipeoliveira/knex-selection-challenges/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/francisco-felipe-vieira-oliveira-b24152236/
 [product-screenshot]: https://github.com/user-attachments/assets/b513ebc8-1298-415d-9c8b-e2cd78f056e4
