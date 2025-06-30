@@ -6,7 +6,7 @@ import { deletePost } from "../../services/postService";
 import { formatPostDate, formatRelativeTime } from "../../utils/dateUtils";
 import { MdEdit, MdDelete } from "react-icons/md";
 import type { Post } from "../../types/post";
-import './Post.css';
+import './post.css';
 
 interface PostProps {
   post: Post;

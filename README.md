@@ -3,11 +3,13 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/ffelipeoliveira/not_real">
-    <img src='https://github.com/user-attachments/assets/3b92ad44-0055-419d-9311-d015146ba8ec' style='width: 100px' alt='NOT REAL'/>
+  <a href="https://notarealapp.vercel.app/">
+    <img src='https://github.com/user-attachments/assets/3b92ad44-0055-419d-9311-d015146ba8ec' style='width: 80px' alt='NOT REAL'/>
   </a>
 
-
+  <a href="https://notarealapp.vercel.app/" style='font-weight: bold; '>Visite o projeto</a>
+  <br/>
+  https://notarealapp.vercel.app/
 
   <p align="center">
     Uma UI brutalista combinada com cores quentes e suaves, que une impacto de Bebas-Neue e a simplicidade de Roboto, e que em seu minimalismo econtra a elegância.
@@ -16,7 +18,6 @@
   [![Contributors][contributors-shield]][contributors-url]
   [![Forks][forks-shield]][forks-url]
   [![Stargazers][stars-shield]][stars-url]
-  [![Issues][issues-shield]][issues-url]
   [![Unlicense License][license-shield]][license-url]
 </div>
 
@@ -52,10 +53,6 @@ Projeto feito para o processo seletivo Knex
 - Roteamento dinâmico
 - Tema adaptativo
 - Responsividade
-- Animações suaves
-- UX Design responsável
-- UI Design moderno e esteticamente agradável
-- Landing pages variadas 
 
 ![dark-creating](https://github.com/user-attachments/assets/799abf33-9a59-43fb-adae-a2d882805d78)
 ![dark-navbar](https://github.com/user-attachments/assets/1f019d9f-15f7-42b8-aaef-e2ab6e5174f5)
@@ -68,28 +65,35 @@ Projeto feito para o processo seletivo Knex
 
 
 
-## 🧠 Linguagens e Ferramentas de Desenvolvimento
+### 🧠 Linguagens e Ferramentas de Desenvolvimento
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 
-## ⚛️ Frameworks e Bibliotecas
+### ⚛️ Frameworks e Bibliotecas
 ![React](https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 
-## ⚙️ Ferramentas e Gerenciadores
+### ⚙️ Ferramentas e Gerenciadores
 ![Node.js](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)  
 ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-## 🧹 Qualidade e Padronização de Código
+### 🧹 Qualidade e Padronização de Código
 ![ESLint](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white)
 ![Prettier](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E)
 
-## 🎨 Design e Prototipagem
+### 🎨 Design e Prototipagem
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ![Krita](https://img.shields.io/badge/Krita-203759?style=for-the-badge&logo=krita&logoColor=EEF37B)
 
+### Dependências
+
+
+    Axios 1.10.0 - Framer Motion 12.1.1 - Jotai 2.12.5 - Js Sha256 0.11.1
+    React 19.1.9 - React Hook Form 7.58.1 - React icons 5.5.0 - Zod 3.25.67
+    React Router Dom 7.6.2 
 
 
 <!-- GETTING STARTED -->
@@ -99,7 +103,7 @@ Projeto feito para o processo seletivo Knex
 
 1. Clone o repositório
    ```sh
-   git clone https://github.com/ffelipeoliveira/not_real.git
+   git clone https://github.com/ffelipeoliveira/knex-selection-challenges.git
    ```
 2. Instale os pacotes NPM
    ```sh
@@ -114,16 +118,16 @@ Projeto feito para o processo seletivo Knex
 
 <p align="right">(<a href="#readme-top">voltar para o topo</a>)</p>
 
-
-<img src="public/loading-dark.png" style="width: 100px"/>
-
 <!-- ROADMAP -->
 
 ## Roadmap
-- [x] Base, Rotas, Requisições
-- [x] Edit e Delete
-- [x] Create
-- [x] Animações
+- [x] Rotas e Requisições
+- [x] Edit, Delete e Create
+- [x] Animações e Estilização
+- [x] Debug, Commit e Deploy
+- [ ] Sistema de notificações
+- [ ] Testes automáticos (ainda estou aprendendo)
+- [ ] Re-Deploy
 
 
 <p align="right">(<a href="#readme-top">voltar para o topo</a>)</p>
@@ -169,7 +173,6 @@ Distribuído sob a licença GPL2. Acesse `LICENSE.txt` para mais informações.
 [stars-shield]: https://img.shields.io/github/stars/ffelipeoliveira/knex-selection-challenges.svg?style=for-the-badge
 [stars-url]: https://github.com/ffelipeoliveira/knex-selection-challenges/stargazers
 [issues-shield]: https://img.shields.io/github/issues/ffelipeoliveiraknex-selection-challenges.svg?style=for-the-badge
-[issues-url]: https://github.com/ffelipeoliveira/knex-selection-challenges/issues
 [license-shield]: https://img.shields.io/github/license/ffelipeoliveira/knex-selection-challenges.svg?style=for-the-badge
 [license-url]: https://github.com/ffelipeoliveira/knex-selection-challenges/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
