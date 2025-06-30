@@ -1,103 +1,173 @@
-# Teste Técnico - Frontend
+<!-- See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<a id="readme-top"></a>
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/ffelipeoliveira/not_real">
+    <img src="public/logo.svg" alt="Logo" width="120">
+  </a>
 
-> Knex Empresa Júnior de Computação
 
-## Avaliação
+  <p align="center">
+  
+    Uma UI brutalista combinada com cores quentes e suaves, que une impacto de Bebas-Neue e a simplicidade de Roboto, e que em seu minimalismo econtra a elegância.
+  </p>
 
-Este teste é uma oportunidade para você demonstrar seus conhecimentos em desenvolvimento Frontend, boas práticas de programação e implementação de formulários e tratamentos de dados de API's. Avaliaremos diversos aspectos do seu código e da implementação da solução. Lembrando que não é necessário concluir tudo do projeto, fazer o que conseguir!
+  [![Contributors][contributors-shield]][contributors-url]
+  [![Forks][forks-shield]][forks-url]
+  [![Stargazers][stars-shield]][stars-url]
+  [![Issues][issues-shield]][issues-url]
+  [![Unlicense License][license-shield]][license-url]
+</div>
 
-## Instruções
 
-- Desenvolva a solução utilizando React + framework a sua escolha.
-- Utilize uma biblioteca para gerenciamento de formulários (React hook form, formik, ...entre outros)
-- Utilize um client HTTP para as requisições (Axios, GOT, ..., entre outros)
-- Utilize uma biblioteca para validação de dados (Zod, Yup, ...entre outros)
-- Você pode utilizar quaisquer outras bibliotecas que considerar necessárias
-- Adicione um arquivo README.md com instruções claras de como executar sua aplicação
-- O desenvolvimento deve ser individual
 
-## Desafio
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Sumário</summary>
+  <ol>
+    <li>
+      <a href="#sobre-o-projeto">Sobre o projeto</a>
+      <ul>
+        <li><a href="#feito-com">Feito com</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#começando">Começando</a>
+      <ul>
+        <li><a href="#prerequisitos">Pré-requisitos</a></li>
+        <li><a href="#installation">Instalação</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Como usar</a></li>
+  </ol>
+</details>
 
-Desenvolver uma tela que fará um CRUD (CREATE, READ, UPDATE, DELETE) de posts de um usuário aleatório na sua plataforma. A tela deverá conter um HEADER e FOOTER exemple para uma rede social, com logo e barras de navegações (mesmo que não sejam links de fato). Os posts serão feitos em requisição a API JSONPlaceholder e os dados do usuário serão obtidos pela API RandomUser.
 
-### A solução deve focar em três pontos principais:
 
-1. Implementação de um formulário para montar o body da requisição do post.
-2. Validações em tempo real com feedback visual claro.
-3. Confirmação de envios e atualização da página (feita em cache).
-4. Tratamento das respostas com feedbacks e components populados.
+<!-- ABOUT THE PROJECT -->
+## Sobre o projeto
 
-### Do usuário do sistema principal (RandomUser)
+[![Mobile Dark][product-screenshot]](https://ibb.co/nMZDB7Pz)
+[![Desktop Dark][product-screenshot]](https://ibb.co/JWjf9sd0)
+[![Desktop Dark][product-screenshot]](https://ibb.co/xtv1nt89)
+[![Desktop Light][product-screenshot]](https://ibb.co/ZRvF59Sx)
+[![Original Figma Concept][product-screenshot]](https://ibb.co/gbRqT6sg)
+Projeto feito para o processo seletivo Knex
 
-1. **Informações do usuário** - Fazer uma requisição de usuários na API e apresentar, de forma estética e coesa a redes sociais as informações do usuário "logado":
 
-   - Nome completo
-   - Foto de perfil
-   - Email
-   - Telefone
-   - Idade
-   - Localização (dê preferencia a BR).
 
-2. **Do Token** - Guardar em Cookies o token SHA256 gerado pela requisição para persistência do usuário.
-   - ! A cada requisição nova a API, os usuários são alterados e sua aplicação deve atualizar isso caso dê reload.
 
-### Dos posts do sistema (JSONPlaceholder)
+## 🧠 Linguagens e Ferramentas de Desenvolvimento
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 
-1. **Informações do post** - Apresentar, de forma estética e coesa a redes sociais as informações requisitadas da API:
+## ⚛️ Frameworks e Bibliotecas
+![React](https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 
-   - Título do post
-   - Texto do post
-   - Atrelar o ID do post a um componente
+## ⚙️ Ferramentas e Gerenciadores
+![Node.js](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-2. **Da estilização do componente Post** - Utilizar a mesma requisição feita sobre os usuários e popular a tela com:
-   - Imagem
-   - Nome
-   - Localização
-3. **Criar um novo post** - Ter um botão ao final da amostra para criar um novo post
-   - O post deve seguir a forma de criação disponível na documentação da API JSONPlaceholder
+## 🧹 Qualidade e Padronização de Código
+![ESLint](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white)
+![Prettier](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E)
 
-### Requisitos Gerais de Validação
+## 🎨 Design e Prototipagem
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![Krita](https://img.shields.io/badge/Krita-203759?style=for-the-badge&logo=krita&logoColor=EEF37B)
 
-- Feedback visual imediato para o usuário.
-- Mensagens de erro claras e específicas.
-- Validação em tempo real nos campos.
-- Permitir CRUD dos posts criados pelo usuário fictício.
-- Validar formulário completo antes do envio final.
 
-## O que não pode faltar neste projeto?
 
-- Uma releitura do protótipo, em Figma mesmo [preferencialmente] ou outra ferramenta análoga
-- Testes automatizados (Jest, React Testing Library)
-- Uso de Eslint e Prettier
-- Código limpo e semântico
-- Componentização adequada
-- Responsividade
-- Tratamento de erros
+<!-- GETTING STARTED -->
+## Como usar
 
-## O que pode te destacar?
+### Instalação
 
-- Uso de Typescript
-- Utilização de recursos modernos de UI
-- Deploy da aplicação
-- Animações fluidas nas transições
-- Cobertura de testes
-- Pouca usabilidade de recursos de IA.
+1. Clone o repositório
+   ```sh
+   git clone https://github.com/ffelipeoliveira/not_real.git
+   ```
+2. Instale os pacotes NPM
+   ```sh
+   npm install
+   ```
 
-## Entrega
+3. Rode 
+   ```sh
+   npm run dev
+   ```
 
-- O código deve ser disponibilizado em um repositório público no GitHub
-- Inclua instruções detalhadas de como rodar o projeto
-- Screenshots ou GIFs da aplicação funcionando
 
-## Prazo
+<p align="right">(<a href="#readme-top">voltar para o topo</a>)</p>
 
-O prazo para entrega está especificado no edital do processo seletivo.
 
-## Documentações das APIS.
+<img src="public/loading-dark.png" style="width: 100px"/>
 
-- Acesse a documentação da api RandomUser [aqui!](https://randomuser.me/documentation)
-- Acesse a documentação da api JSONPlaceholder [aqui!](https://jsonplaceholder.typicode.com/guide/)
+<!-- ROADMAP -->
 
+## Roadmap
+- [x] Base, Rotas, Requisições
+- [x] Edit e Delete
+- [x] Create
+- [x] Animações
+
+
+<p align="right">(<a href="#readme-top">voltar para o topo</a>)</p>
+
+<!-- CONTRIBUTING -->
+## Como contribuir
+
+Se você tiver alguma sugestão de ferautre, por favor crie um fork do repositório e crie um pull request. Não esqueça de dar uma estrelinha pro projeto! Obrigado!
+
+1. Crie um fork do projeto
+2. Crie uma branch pra sua feature (`git checkout -b feature/Melhoria`)
+3. Faça um commit (`git commit -m '(feat) adiciona tal melhoria'`) ou (`git commit -m '(bug) corrige tal bug'`)
+4. Faça um push pro repositório remoto (`git push origin feature/Melhoria`)
+5. Abra um pull request.
+
+<p align="right">(<a href="#readme-top">voltar para o topo</a>)</p>
+
+
+
+<!-- LICENSE -->
+## Licença
+
+Distribuído sob a licença GPL2. Acesse `LICENSE.txt` para mais informações.
+
+
+
+
+
+<!-- CONTACT -->
 ## Contato
 
-Em caso de dúvidas, utilize o canal de comunicação informado no início do processo seletivo.
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+<p align="right">(<a href="#readme-top">voltar para o topo</a>)</p>
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/ffelipeoliveira/not_real.svg?style=for-the-badge
+[contributors-url]: https://github.com/ffelipeoliveira/not_real/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ffelipeoliveira/not_real.svg?style=for-the-badge
+[forks-url]: https://github.com/ffelipeoliveira/not_real/network/members
+[stars-shield]: https://img.shields.io/github/stars/ffelipeoliveira/not_real.svg?style=for-the-badge
+[stars-url]: https://github.com/ffelipeoliveira/not_real/stargazers
+[issues-shield]: https://img.shields.io/github/issues/ffelipeoliveira/not_real.svg?style=for-the-badge
+[issues-url]: https://github.com/ffelipeoliveira/not_real/issues
+[license-shield]: https://img.shields.io/github/license/ffelipeoliveira/not_real.svg?style=for-the-badge
+[license-url]: https://github.com/ffelipeoliveira/not_real/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/francisco-felipe-vieira-oliveira-b24152236/
+[product-screenshot]: https://github.com/user-attachments/assets/b513ebc8-1298-415d-9c8b-e2cd78f056e4
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Angular-url]: https://angular.io/
+[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
+[Svelte-url]: https://svelte.dev/
+[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
