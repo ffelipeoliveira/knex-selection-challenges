@@ -4,12 +4,12 @@
 <br />
 <div align="center">
   <a href="https://github.com/ffelipeoliveira/not_real">
-    <img src="public/logo.svg" alt="Logo" width="120">
+    <img src='https://github.com/user-attachments/assets/3b92ad44-0055-419d-9311-d015146ba8ec' style='width: 100px' alt='NOT REAL'/>
   </a>
 
 
+
   <p align="center">
-  
     Uma UI brutalista combinada com cores quentes e suaves, que une impacto de Bebas-Neue e a simplicidade de Roboto, e que em seu minimalismo econtra a elegância.
   </p>
 
@@ -47,13 +47,23 @@
 
 <!-- ABOUT THE PROJECT -->
 ## Sobre o projeto
+Projeto feito para o processo seletivo Knex  
+### Inclui
+- Roteamento dinâmico
+- Tema adaptativo
+- Responsividade
+- Animações suaves
+- UX Design responsável
+- UI Design moderno e esteticamente agradável
+- Landing pages variadas 
 
-[![Mobile Dark][product-screenshot]](https://ibb.co/nMZDB7Pz)
-[![Desktop Dark][product-screenshot]](https://ibb.co/JWjf9sd0)
-[![Desktop Dark][product-screenshot]](https://ibb.co/xtv1nt89)
-[![Desktop Light][product-screenshot]](https://ibb.co/ZRvF59Sx)
-[![Original Figma Concept][product-screenshot]](https://ibb.co/gbRqT6sg)
-Projeto feito para o processo seletivo Knex
+![dark-creating](https://github.com/user-attachments/assets/799abf33-9a59-43fb-adae-a2d882805d78)
+![dark-navbar](https://github.com/user-attachments/assets/1f019d9f-15f7-42b8-aaef-e2ab6e5174f5)
+![dark-details](https://github.com/user-attachments/assets/5976ffe5-fe91-4799-92af-72f00a81499d)
+![light-editing](https://github.com/user-attachments/assets/93bb03fd-8716-4bc7-9eb5-33a3174cffd4)
+![figma](https://github.com/user-attachments/assets/b15bdb2d-8661-474c-9fcb-d7b2e16269ba)
+
+
 
 
 
