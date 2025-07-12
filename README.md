@@ -7,9 +7,9 @@
     <img src='https://github.com/user-attachments/assets/3b92ad44-0055-419d-9311-d015146ba8ec' style='width: 80px' alt='NOT REAL'/>
   </a>
 
-  <a href="https://notarealapp.vercel.app/" style='font-weight: bold; '>Visite o projeto</a>
+  <a href="https://not-a-real-app.vercel.app/" style='font-weight: bold; '>Visite o projeto</a>
   <br/>
-  https://notarealapp.vercel.app/
+  https://not-a-real-app.vercel.app/
 
   <p align="center">
     Uma UI brutalista combinada com cores quentes e suaves, que une impacto de Bebas-Neue e a simplicidade de Roboto, e que em seu minimalismo econtra a elegância.
